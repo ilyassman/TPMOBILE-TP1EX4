@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity2">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Screen2"
+        app:titleTextColor="#FFFFFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/nom"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom : " />
+        <TextView
+            android:id="@+id/email"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email : " />
+        <TextView
+            android:id="@+id/phone"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone : " />
+        <TextView
+            android:id="@+id/adresse"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse : " />
+        <TextView
+            android:id="@+id/ville"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ville : " />
+    </LinearLayout>
+
+</LinearLayout>
