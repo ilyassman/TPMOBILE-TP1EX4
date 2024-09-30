@@ -30,3 +30,5 @@ Cette activité reçoit les données transmises depuis `MainActivity` et les aff
 - Téléphone
 - Adresse
 - Ville
+## Screen Video
+[![Vidéo de démonstration]](https://github.com/user-attachments/assets/38147616-36b6-4564-9edf-27b56b5c81cf)
